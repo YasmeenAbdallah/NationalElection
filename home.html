@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
+    <!-- FontAwesome Css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Main Style.css -->
+    <link rel="stylesheet" href="build/style.css" />
+    <!-- <link rel="stylesheet" href="css/all.css" /> -->
+
+</head>
+
+
+<body>
+
+    <!-- START  navbar section -->
+    <section class="section section_type-nav nav">
+        <!-- START nav -->
+        <nav class="nav">
+
+            <!--nav-main dev-->
+            <div class="nav__main">
+                <!--START .uk-navbar-container-->
+                <div class=" uk-navbar-transparent" uk-navbar>
+                   
+                    <!--START .uk-navbar-right-->
+                    <div class="uk-navbar-right uk-container">
+
+                        <ul class="uk-navbar-nav uk-visible@m">
+
+                            <li class=" uk-navbar-item"><a style="color: #fff;" href="#">الرئيسيه</a></li>
+                            <li class=" uk-navbar-item"><a style="color: #fff;" href="#">المميزات </a></li>
+                            <li class=" uk-navbar-item"><a style="color: #fff;" href="#candidates">المرشحين</a></li>
+                            <li class=" uk-navbar-item"><a style="color: #fff;" href="">للتواصل معنا</a></li>
+                            
+                        </ul>
+                        <ul class="uk-navbar-nav uk-inline  uk-hidden@m">
+                            <li><a href="#offcanvas-overlay" class=" button_type_toggle "
+                                    uk-toggle="target: #offcanvas-overlay">
+                                    <span class="" uk-navbar-toggle-icon>
+                                    </span>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <!--END .uk-navbar-right-->
+                </div>
+                <!--END .uk-navbar-nav-->
+            </div>
+            <!--END .uk-navbar-container-->
+
+        </nav>
+        <!--START .offcanvas-overlay-->
+        <div id="offcanvas-overlay" uk-offcanvas="overlay: true" class="uk-child-width-1-3@s">
+            <!--START .uk-offcanvas-bar-->
+            <div class="uk-offcanvas-bar section_theme_white">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                <ul class="uk-nav ">
+                    <li><a class="uk-margin-bottom" href="">الرئيسيه</a></li>
+                    <li><a class="uk-margin-bottom" href="#">المميزات</a></li>
+                    <li><a class="uk-margin-bottom" href="#candidates">المرشحين</a></li>
+                    <li><a class="uk-margin-bottom" href="#">للتواصل معنا</a></li>
+                </ul>
+            </div>
+            <!--END .uk-offcanvas-bar -->
+        </div>
+        <!--END .offcanvas-overlay-->
+
+    </section>
+    <!-- End navbar section -->
+
+
+    <!--start hero section-->
+    <section class="section section_type-heroHome hero">
+        <!-- START .hero__background  -->
+
+
+        <div class=" uk-overlay  uk-height-large uk-background-cover   uk-flex uk-flex-middle"
+            style="background-image: url('img/home.jpg'); height: 50vh; width: 100%; margin-top: 55px;">
+            <!-- START .hero-overlay  -->
+            <div
+                class="heroHome__type-content uk-overlay-panel  uk-container uk-position-relative uk-overlay-background uk-width-1-1@m uk-flex-middle uk-text-center uk-margin-auto uk-margin-auto-bottm">
+                <h1 class="uk-visible@m">مرحبا بك</h1>
+                <h3 class="uk-visible@m">المشاركة في الانتخابات واجب وطني يجب ان تعلم ان لصوتك تأثيرا علي الوطن وابنائه
+                </h3>
+
+                <a class="heroHome__btn" href="#candidates">ابدا التصويت</a>
+
+            </div>
+            <!--END .hero-ovrelay-->
+        </div>
+        <!--end .hero__bacground-->
+
+        </div>
+        <!-- END .hero__background -->
+    </section>
+
+
+    <!--Strat the upcoming event section-->
+    <section class="section__type-events">
+        <div uk-slider="center: true">
+            <h1 class="uk-text-center">الاحداث القادمه</h1>
+            <!--START events-->
+            <div class="events uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                <ul class="event__card uk-slider-items uk-child-width-1-2@s uk-grid">
+                    <li>
+                        <div class="uk-card uk-card-default">
+
+                            <div class="event__card-value uk-card-body">
+                                <h3 class="uk-card-title">فبراير 2020</h3>
+                                <p> الاعلان عن المرشح الفائز</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+
+                            <div class="event__card-value uk-card-body">
+                                <h3 class="uk-card-title">يناير2021</h3>
+                                <p>بدايه مرحلة الاستفتاءات.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+
+                            <div class=" event__card-value uk-card-body">
+                                <h3 class="uk-card-title">اغسطس2022</h3>
+                                <p>انتخاباتمجلس الشعب</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+
+                            <div class=" event__card-value uk-card-body">
+                                <h3 class="uk-card-title">اغسطس2022</h3>
+                                <p>انتخاباتمجلس الشعب</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+
+                            <div class=" event__card-value uk-card-body">
+                                <h3 class="uk-card-title">اغسطس2022</h3>
+                                <p>انتخاباتمجلس الشعب</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    uk-slider-item="next"></a>
+
+            </div>
+
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+        </div>
+
+        <!--END hero section-->
+        <section class="section__type-feauters">
+            <h1 class="uk-text-center">المميزات</h1>
+            <div class="uk-container uk-text-center uk-clearfix uk-child-width-1-3@m uk-grid-small uk-grid-match uk-flex uk-flex-center uk-align-center"style="margin-left:63px;" uk-grid>
+                <div>
+                    <div class="section__feauters-content  uk-card uk-card-default uk-card-body uk-margin-left ">
+                        <h3 class="uk-card-title"><span class="testimonial__type-star"><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i></span>
+                        </h3>
+                        <p> المواطنين الغير قادرين ...فمن خلال الموقع الالكتروني الخاص بنا سوف تتم عمليه التصويت بدون
+                            الاحتياج لاي مجهود خاصا لكبار السن وذوي الاحتياجات الخاصه
+                            .</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="section__feauters-content uk-card uk-card-default uk-card-body uk-margin-left">
+                        <h3 class="uk-card-title"><span class="testimonial__type-star"><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i></span>
+                        </h3>
+                        <p>الهيئه التعليميه ..حيث لن يتم تعطيل المدارس او الجامعات
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="section__feauters-content uk-card uk-card-default uk-card-body uk-margin-left">
+                        <h3 class="uk-card-title"><span class="testimonial__type-star"><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i></span>
+                        </h3>
+                        <p>تجنب الاصوات المهدره..لم نسمح للمواطن بابطال صوته
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="section__feauters-content uk-card uk-card-default uk-card-body uk-margin-left">
+                        <h3 class="uk-card-title"><span class="testimonial__type-star"><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i></span>
+                        </h3>
+                        <p> النتتيجه..سيكون من السهل متابعه النتيجه وسوف تكون اسرع وادق
+                            .</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="section__feauters-content uk-card uk-card-default uk-card-body uk-margin-left">
+                        <h3 class="uk-card-title"><span class="testimonial__type-star"><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i></span>
+                        </h3>
+                        <p>الخصوصيه ..حيث اننا لن نسمح بتسريب اي معلومات تخص المواطن لاي جهه او شخص
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="section__feauters-content uk-card uk-card-default uk-card-body uk-margin-left">
+                        <h3 class="uk-card-title"><span class="testimonial__type-star"><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i></span>
+                        </h3>
+                        <p> توفير المال العام
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+<section id="candidates">
+        <!--End of testmonial section-->
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+            uk-slider="clsActivated: uk-transition-active; center: true">
+            <h1 class="uk-text-center">المرشحين</h1>
+            <ul class="uk-slider-items uk-grid">
+                <li class="uk-width-1-4">
+                    <div class="uk-panel">
+                        <img src="img/2.jpg" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">انور السادات</h3>
+                            <p class="uk-margin-remove">
+                                حزب الوفد
+                                <br>
+                                <a href="profile.html">الصفحه الشخصيه </a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-width-1-4">
+                    <div class="uk-panel">
+                        <img src="img/4.jpg" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">حسني مبارك</h3>
+                            <p class="uk-margin-remove">
+                                حزب الوفد
+                                <br>
+                                <a href="profile.html">الصفحه الشخصيه </a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-width-1-4">
+                    <div class="uk-panel">
+                        <img src="img/3.jpg" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">جمال عبد الناصر</h3>
+                            <p class="uk-margin-remove">
+                                حزب الوفد
+                                <br>
+                                <a href="profile.html">الصفحه الشخصيه </a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-width-1-4">
+                    <div class="uk-panel">
+                        <img src="img/4.jpg" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="uk-width-1-4">
+                    <div class="uk-panel">
+                        <img src="img/1.jpg" alt="">
+                        <div
+                            class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Bottom</h3>
+                            <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                uk-slider-item="next"></a>
+
+        </div>
+        <div class="uk-margin uk-card uk-card-default uk-card-body uk-text-center">
+            <h1 class="uk-text-center">اختر مرشحك</h1>
+            <div class="uk-form-controls uk-form-controls-text">
+                <label> محمد نجيب<input class="uk-radio" type="radio" name="radio1"></label><br>
+                <label>جمال عبد الناصر<input class="uk-radio" type="radio" name="radio1"> </label><br>
+                <label>انور السادات<input class="uk-radio" type="radio" name="radio1">  </label><br>
+                <label>حسني مبارك<input class="uk-radio" type="radio" name="radio1"> </label>
+            </div>
+            <button class="uk-button uk-button-secondary uk-margin-large">  تصويت</button>
+        </div>
+    </section>
+    
+   
+   
+    <!--START footer section-->
+    <footer class="section__type-footer">
+        <!--START .uk-text-->
+        <div class="uk-padding  uk-text-left uk-container">
+            <h2 class="uk-text-center">للتواصل معنا!</h2>
+            <hr>
+        </div>
+        <!--END .uk-text-->
+        <!--STRAT .uk-text-left-->
+        <div class="uk-padding uk-text-right uk-container ">
+            <div class="uk-margin ">
+                <textarea class="uk-textarea uk-text-right" rows="5" placeholder="اكتب رسالتك"></textarea>
+            </div>
+            <button class="uk-button uk-button-secondary uk-margin-large uk-align-center">  ارسال</button>
+
+
+        </div>
+        <!--END .uk-text-left-->
+
+    </footer>
+    <!--End of footer section-->
+
+</body>
+
+<!-- UIkit JS -->
+<!-- <script src="js/all.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+
+</html>

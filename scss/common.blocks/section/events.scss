@@ -1,0 +1,43 @@
+.section__type-events{
+    h1{
+        color: $color__primary;
+    }
+}
+.events{
+    text-align: right;
+    border-radius: 10px;
+}
+
+.event__card{
+    margin-top: 40px;
+    font-size:40px;
+    border-radius: 20px;
+   
+
+  & .event__card-value{
+    color:$color__sunflower!important;
+    font-family: Poppins,sans-serif;
+    text-align: center;
+    
+    height: 130%;
+    width: 100%;
+    background-color: $color__primary;
+   font-size: 25px;
+    
+    padding:35px 0px;
+    
+
+      h3{
+        color:$color__main;
+        position: relative;
+        z-index: 1;
+       }
+       p{
+        color:$color__sunflower;
+        position: relative;
+        z-index: 1;
+       }
+    
+    
+}
+}
