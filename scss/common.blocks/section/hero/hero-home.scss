@@ -1,59 +1,52 @@
 //hero section
 .section_type-heroHome::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 50%;
-    background: $color__background;
-    z-index: 0;
-    opacity: .5;
-   
-
-  
-
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 52%;
+  background: $color__background;
+  z-index: 0;
+  opacity: 0.5;
 }
-.section_type-heroHome::after{
-    content: "";
-    position: relative;
-    width: 100%;
-    height: 50%;
-    margin-top: 30px;
-    display: block; 
-    background: $color__background;
-    z-index: 9;
-    opacity:0;
-   
+.section_type-heroHome::after {
+  content: "";
+  position: relative;
+  width: 100%;
+  height: 50%;
+  margin-top: 30px;
+  display: block;
+  background: $color__background;
+  z-index: 9;
+  opacity: 0;
 }
 
-.heroHome__type-content{
-    text-align: center;
-    margin-left: 50%;
-    margin-right: 50%;
-    h1{
-        color:$color__main;
-        position: relative;
-        z-index: 1;
-        font-weight: bold;
-        font-family: 'Courier New', Courier, monospace;
-       }
-    h3{
-        color: $color__main;
-        position: relative;
-        z-index: 1;
-        font-weight: bold;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-       }
-}
-
-.heroHome__btn{
-    background-color:$color__secondary ;
-    color:$color__main;
-    font-size: 32px;
-    border-radius: 10px;
-    padding: 10px ;
+.heroHome__type-content {
+  text-align: center;
+  margin-left: 50%;
+  margin-right: 50%;
+  h1 {
+    color: $color__main;
     position: relative;
     z-index: 1;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+  }
+  h3 {
+    color: $color__background;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
 }
 
-
+.heroHome__btn {
+  background-color: $color__secondary;
+  color: $color__main;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  z-index: 1;
+}

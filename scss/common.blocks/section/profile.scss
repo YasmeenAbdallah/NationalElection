@@ -1,41 +1,35 @@
-.section__profile-sidebar{
-    height: 620px;
-    background-color: $color__primary;
-    position: fixed;
-    margin-left: 1080px;
-   & .sidebar__type-heading{
-       h3{
+.section__profile-sidebar {
+  height: 100%;
+  background-color: $color__primary;
+  position: fixed;
+  margin-bottom: 10px;
+
+  & .sidebar__type-heading {
+    h3 {
+      color: $color__main;
+      p {
         color: $color__main;
-          p{
-            
-              color: $color__main;
-            
-          }
-
-       }
-   
+      }
     }
-
+  }
 }
 
-.sidebar__type-list{
-        li{
-            a{
-                padding-left: 150px;
-                color: $color__main;
-            }
-
-        
-        }
+.sidebar__type-list {
+  li {
+    a {
+      padding-left: 150px;
+      color: $color__main;
     }
-.sidebar__type-btn{
+  }
+}
+.sidebar__type-btn {
+  text-align: center;
+  a {
+    color: $color__primary;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: $color__main;
     text-align: center;
-    a{
-     color: $color__primary;
-     padding: 20px;
-     border-radius: 20px;
-     background-color: $color__main;
-     text-align: center;
-     font-weight: bolder;
-    }
+    font-weight: bolder;
+  }
 }
